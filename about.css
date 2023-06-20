@@ -1,0 +1,162 @@
+
+
+body {
+    background-color: #3d3c3c;
+    font-family: 'Caveat', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+padding-top: 100px;
+  }
+   /* Styling for the navbar */
+  .navbar {
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 0;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    z-index: 1;
+    padding: 15px;
+  }
+  /* Styling for the navbar brand and links */
+  .navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  /* Styling for the navbar toggle button */
+  .navbar-toggler .navbar-toggler-icon {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon:before, 
+  .navbar-toggler .navbar-toggler-icon:after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: calc(50% - 12.5px);
+  }
+  
+  .navbar-toggler .navbar-toggler-icon:after {
+    transform: translateY(8px);
+  }
+  
+  /* Adds margin to the top of the container */
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+ 
+
+
+  #text {
+    text-align: left;
+}
+  
+/* Styling for the footer section */
+footer {
+  background-color: #222; /* Set the background color */
+  position: relative; /* Position relative to its parent element */
+  bottom: 0; /* Position at the bottom of its parent element */
+  width: 100%; /* Take up full width of its parent element */
+}
+
+/* Styling for h4 tags in footer */
+h4 {
+  font-weight: bold; /* Make font bold */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Styling for the subscribe form */
+.subscribe-form {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items to center */
+}
+
+/* Styling for form control input */
+.form-control {
+  border: none; /* Remove border */
+  border-bottom: 2px solid #fff; /* Add bottom border */
+  background-color: transparent; /* Make background transparent */
+  color: #fff; /* Set text color to white */
+  font-size: 16px; /* Set font size */
+  padding: 10px; /* Add padding */
+  margin-right: 10px; /* Add margin to the right */
+  width: 100%; /* Take up full width */
+  max-width: 400px; /* Set max width to 400px */
+}
+
+/* Styling for the form control placeholder */
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* Set placeholder color */
+}
+
+/* Styling for the primary button */
+.btn-primary {
+  border-radius: 0; /* Set border radius to 0 */
+  border: none; /* Remove border */
+  background-color: #b8b6b6; /* Set background color */
+  color: #222; /* Set text color */
+  font-weight: bold; /* Make font bold */
+  padding: 10px 20px; /* Add padding */
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+  margin-top: 10px; /* Add margin at the top */
+  border-radius: 10px; /* Set border radius to 10px */
+}
+
+/* Styling for the primary button on hover */
+.btn-primary:hover {
+  background-color: #fff; /* Change background color on hover */
+  color: #000000; /* Change text color on hover */
+}
+
+/* Styling for the subscribe section */
+#Subscribe {
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Styling for social icons section */
+.social-icons {
+  display: flex; /* Use flexbox */
+  justify-content: space-evenly; /* Add space between icons */
+}
+
+/* Styling for each social icon */
+.social-icons a {
+  display: inline-flex; 
+  justify-content: center; /* Align content to center */
+  align-items: center; /* Align items to center */
+  height: 40px; /* Set height */
+  width: 40px; /* Set width */
+  border-radius: 50%; /* Set border radius to create circle */
+  background-color: #fff; /* Set background color */
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+
+/* Styling for social icons on hover */
+.social-icons a:hover {
+  background-color:#d2cece; /* Change background color on hover */
+}
+
+/* Styling for social icon images */
+.social-icons img {
+  width: 20px; /* Set width */
+  height: 20px; /* Set height */
+}
+
+/* Styling for links in the footer */
+.text-md-end a {
+  color: white; /* Set text color  */
+}
+
+
